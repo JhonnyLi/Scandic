@@ -8,4 +8,6 @@ Your task is to:
 4 Describe any additional assumptions you have made about the problem
 ```
 
-4) Since I can only AddGuestToBooking I made an assuption that I cannot upgrade a customers room and cause of that adding a new guest have to fail if there is not enough room.
+4
+-Since I can only AddGuestToBooking I made an assuption that I cannot upgrade a customers room and cause of that adding a new guest have to fail if there is not enough room.
+- HandleNewGuest should probably have a return value to let the customer/guest know if adding the new guest was successful. I left it as void since I don't know how the rest of the system is setup.
